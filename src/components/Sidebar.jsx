@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 
 const menuItems = [
-  { name: "DASBOR", icon: <FaHome />, path: "/dashboard" },
+  { name: "DASHBOARD", icon: <FaHome />, path: "/dashboard" },
   { name: "KATEGORI", icon: <FaThList />, path: "/categories" },
   { name: "PRODUK", icon: <FaCubes />, path: "/products" },
   { name: "PESANAN", icon: <FaClipboardList />, path: "/orders" },

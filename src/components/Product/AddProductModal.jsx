@@ -430,7 +430,7 @@ const AddProductModal = ({ isOpen, onClose, onProductAdded }) => {
             htmlFor="add-prod-images"
             className="block text-sm font-medium text-gray-700 mb-1"
           >
-            Gambar Produk (Bisa > 1)
+            Gambar Produk (Bisa lebih dari 1)
           </label>
           <input
             id="add-prod-images"

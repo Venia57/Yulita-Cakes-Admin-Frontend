@@ -62,7 +62,7 @@ const Dashboard = () => {
   }, [authFetch]);
 
   useEffect(() => {
-    document.title = "Yulita Cakes | Dasbor";
+    document.title = "Yulita Cakes | Dasboard";
     fetchSummary();
   }, [fetchSummary]);
 
@@ -77,10 +77,10 @@ const Dashboard = () => {
     return (
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-2xl sm:text-3xl font-bold mb-6 text-gray-800">
-          Dasbor
+          Dashboard
         </h1>
         <div className="text-center text-gray-500 py-10">
-          Memuat Data Dasbor...
+          Memuat Data Dashboard...
         </div>
       </div>
     );
@@ -90,7 +90,7 @@ const Dashboard = () => {
     return (
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-2xl sm:text-3xl font-bold mb-6 text-gray-800">
-          Dasbor
+          Dashboard
         </h1>
         <div className="text-center text-red-500 bg-red-50 p-4 rounded-lg">
           Error memuat data ringkasan: {error}
@@ -102,7 +102,7 @@ const Dashboard = () => {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <h1 className="text-2xl sm:text-3xl font-bold mb-6 text-gray-800">
-        Dasbor
+        Dashboard
       </h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-6 md:mb-8">
